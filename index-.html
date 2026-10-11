@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ing. Ric Flores - Ingeniero Civil especializado en Cálculo Estructural (Diseño Sísmico y de Viento) y Reparaciones Estructurales (Concreto, Acero y Mixtas)." />
+    <title>Ing. Ric Flores | Cálculo y Reparación Estructural</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700;14..32,800;14..32,900&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- ========== HEADER ========== -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#inicio">
+                    <!-- Aquí irá tu logo PNG. Mientras tanto, usamos texto estilizado -->
+                    <img src="logo-rf.png" alt="RF - Ing. Ric Flores" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="logo-text-fallback" style="display: none;">
+                        <span class="logo-rf">RF</span>
+                        <span class="logo-name">ING. RIC FLORES</span>
+                    </div>
+                </a>
+            </div>
+
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#inicio" class="active">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#proceso">Proceso</a></li>
+                    <li><a href="#contacto" class="btn-nav-cta">Cotizar</a></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-badge">Ingeniero Civil Certificado</span>
+                <h1>
+                    ING. RIC FLORES
+                    <span class="text-gradient">INGENIERO ESTRUCTURAL</span>
+                </h1>
+                <p class="hero-desc">
+                    Especialista en <strong>Cálculo Estructural</strong> (Diseño Sísmico y de Viento) y 
+                    <strong>Reparaciones Estructurales</strong> (Concreto, Acero y Mixtas). 
+                    Garantizo la seguridad y durabilidad de tu inversión.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn-primary">
+                        <i class="fas fa-arrow-right"></i> Cotiza tu proyecto
+                    </a>
+                    <a href="#servicios" class="btn-secondary">
+                        <i class="fas fa-play-circle"></i> Conoce más
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="500">0</span>
+                        <span class="stat-label">Mil m² calculados</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="0">0</span>
+                        <span class="stat-label">Fallos estructurales</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="120">0</span>
+                        <span class="stat-label">Proyectos entregados</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-3d-placeholder">
+                    <i class="fas fa-drafting-compass"></i>
+                    <i class="fas fa-ruler-combined"></i>
+                    <i class="fas fa-cubes"></i>
+                    <span>ANÁLISIS Y CÁLCULO</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.32C58.69,99.2,119.62,86.83,163.3,64.87,205.88,43.44,263.34,67.24,321.39,56.44Z" />
+            </svg>
+        </div>
+    </section>
+
+    <!-- ========== SERVICIOS ========== -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Especialidades</span>
+                <h2>Servicios de Ingeniería <br />Estructural de Precisión</h2>
+                <p>Soluciones integrales para garantizar la resistencia, estabilidad y durabilidad de cualquier estructura.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Servicio 1 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Cálculo Estructural</h3>
+                    <p>Análisis y diseño de estructuras para resistir cargas gravitacionales, sísmicas y de viento.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check-circle"></i> Diseño Sísmico</li>
+                        <li><i class="fas fa-check-circle"></i> Diseño por Viento</li>
+                        <li><i class="fas fa-check-circle"></i> Memorias de cálculo</li>
+                    </ul>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Reparaciones Estructurales</h3>
+                    <p>Reforzamiento y rehabilitación de estructuras dañadas o con deficiencias.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check-circle"></i> Concreto</li>
+                        <li><i class="fas fa-check-circle"></i> Acero</li>
+                        <li><i class="fas fa-check-circle"></i> Mixtas</li>
+                    </ul>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-cubes"></i></div>
+                    <h3>Modelado BIM 3D</h3>
+                    <p>Visualización y detección de conflictos antes de construir.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check-circle"></i> Modelado 3D</li>
+                        <li><i class="fas fa-check-circle"></i> Planos estructurales</li>
+                        <li><i class="fas fa-check-circle"></i> Detallado de conexiones</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROYECTOS ========== -->
+    <section class="projects" id="proyectos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portafolio</span>
+                <h2>Proyectos que <span class="text-gradient">hablan por sí solos</span></h2>
+                <p>Estructuras diseñadas y reparadas con los más altos estándares de ingeniería.</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('proyecto-torre.jpg');"></div>
+                    <div class="project-info">
+                        <span class="project-tag">Edificio Alto</span>
+                        <h3>Torre Corporativa</h3>
+                        <p>Análisis sísmico avanzado en zona de alta sismicidad.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('proyecto-nave.jpg');"></div>
+                    <div class="project-info">
+                        <span class="project-tag">Industrial</span>
+                        <h3>Nave de 5,000 m²</h3>
+                        <p>Estructura metálica con claros de 30m, resistente a vientos de 150 km/h.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('proyecto-hospital.jpg');"></div>
+                    <div class="project-info">
+                        <span class="project-tag">Especial</span>
+                        <h3>Hospital General</h3>
+                        <p>Diseño resiliente con redundancia estructural post-sismo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROCESO ========== -->
+    <section class="process" id="proceso">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Metodología</span>
+                <h2>Nuestro proceso de <span class="text-gradient">ingeniería de precisión</span></h2>
+                <p>Un flujo de trabajo transparente que te mantiene informado en cada etapa.</p>
+            </div>
+
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Recepción y análisis</h3>
+                        <p>Recibimos tus planos arquitectónicos y requerimientos específicos.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Modelado 3D y simulación</h3>
+                        <p>Construimos el modelo y aplicamos cargas de viento y sismo.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Diseño y detallado</h3>
+                        <p>Dimensionamos elementos: columnas, vigas, losas y zapatas.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Entrega y asesoría</h3>
+                        <p>Planos estructurales, memorias de cálculo y acompañamiento en obra.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACTO ========== -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <span class="section-tag">Contáctanos</span>
+                    <h2>¿Listo para asegurar <br />tu estructura?</h2>
+                    <p>Construir sin un análisis estructural adecuado es un riesgo. <strong>No arriesgues tu patrimonio.</strong></p>
+
+                    <ul class="contact-details">
+                        <li><i class="fas fa-phone"></i> <span>812 406 2292</span></li>
+                        <li><i class="fas fa-envelope"></i> <span>fler.rdz87@gmail.com</span></li>
+                        <li><i class="fas fa-clock"></i> <span>Lun - Vie: 8:00 AM - 6:00 PM</span></li>
+                    </ul>
+
+                    <div class="contact-trust">
+                        <i class="fas fa-shield-halved"></i>
+                        <span>Honorarios claros y cotización sin compromiso</span>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" placeholder="Tu nombre" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" placeholder="tu@email.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" placeholder="81 1234 5678" />
+                    </div>
+                    <div class="form-group">
+                        <label for="proyecto">Tipo de servicio</label>
+                        <select id="proyecto">
+                            <option value="">Selecciona...</option>
+                            <option>Cálculo Estructural (Sismo/Viento)</option>
+                            <option>Reparación Estructural (Concreto)</option>
+                            <option>Reparación Estructural (Acero)</option>
+                            <option>Reparación Estructural (Mixta)</option>
+                            <option>Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" rows="4" placeholder="Cuéntanos sobre tu proyecto..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Solicitar cotización
+                    </button>
+                    <p class="form-note">* Te responderemos en menos de 24 horas.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="logo-rf.png" alt="RF" class="logo-img-footer" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="logo-text-fallback" style="display: none;">
+                            <span class="logo-rf">RF</span>
+                            <span class="logo-name">ING. RIC FLORES</span>
+                        </div>
+                    </div>
+                    <p>Ingeniería estructural de precisión. Cálculo, diseño y reparación de estructuras.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="https://wa.me/528124062292" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#proceso">Proceso</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Especialidades</h4>
+                    <ul>
+                        <li><a href="#servicios">Diseño Sísmico</a></li>
+                        <li><a href="#servicios">Diseño por Viento</a></li>
+                        <li><a href="#servicios">Reparación de Concreto</a></li>
+                        <li><a href="#servicios">Reparación de Acero</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Contacto Directo</h4>
+                    <p><i class="fas fa-phone"></i> 812 406 2292</p>
+                    <p><i class="fas fa-envelope"></i> fler.rdz87@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ing. Ric Flores. Todos los derechos reservados.</p>
+                <p>Diseñado con <i class="fas fa-heart"></i> para la seguridad estructural</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
